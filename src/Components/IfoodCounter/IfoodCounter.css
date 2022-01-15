@@ -1,0 +1,80 @@
+body{
+    height:790px;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    height: 50px;
+
+    border: 2px solid rgb(90, 87, 87);
+    border-radius: 8px;
+    color: black;
+    font-size: 24px;
+    margin-top: 200px;
+}
+
+.counter-plus{
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+
+}
+.counter-minus{
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+
+}
+
+.counter-minus-inative{
+    color: rgba(128, 128, 128, 0.568);
+    font-size: 20px;
+    font-weight: 800;
+
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+
+}
+
+.btn-page{
+    background-color: rgba(253, 253, 253, 0.733);
+    border: 1px solid rgba(255, 249, 249, 0.712);
+    
+    border-radius: 10px;
+    margin: 5px;
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+.light{
+    background-color: white;
+}
+
+.font-color{
+    color: white;
+}
+.font-color-padrao{
+    color: black;
+}
+
+#moeda{
+    font-size: 24px;
+    margin-left: 650px;
+    margin-top: 40px;
+}
